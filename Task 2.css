@@ -1,0 +1,108 @@
+.cust img {
+    height: 45vh;
+    width: 35vw;
+}
+
+.omer img {}
+
+.custt h1 {
+    color: red;
+}
+
+.mars {
+    z-index: 1;
+}
+
+.maya {
+    text-align: left;
+    position: absolute;
+    left: 30rem;
+    top: 17rem;
+    animation: maya1 3s 1;
+}
+
+.custt h5 {
+    color: silver;
+}
+
+@keyframes customer1 {
+    0% {
+        transform: scale(0.2) translateX(100rem);
+    }
+    100% {
+        transform: scale(1) translateX(0rem);
+    }
+}
+
+@keyframes customer2 {
+    0% {
+        transform: scale(0.2) translateX(-100rem);
+    }
+    100% {
+        transform: scale(1) translateX(0rem);
+    }
+}
+
+.cost {
+    animation: customer1 3s 1;
+}
+
+.cost1 {
+    margin-left: 54rem;
+    animation: customer2 3s 1;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.omer {}
+
+.omer p {
+    display: inline-block;
+}
+
+.omer1 {
+    margin-top: 4rem;
+}
+
+.cypan {
+    text-align: right;
+    position: relative;
+    right: 31.1rem;
+    top: 5rem;
+    animation: maya2 3s 1;
+}
+
+@keyframes maya1 {
+    0% {
+        transform: translatex(-40rem) rotatez(360deg);
+    }
+}
+
+@keyframes maya2 {
+    0% {
+        transform: translatex(40rem) rotatez(360deg);
+    }
+}
+
+@keyframes clip {
+    0% {
+        transform: translateX(-90rem);
+    }
+}
+
+@keyframes clap {
+    0% {
+        transform: translateX(-90rem);
+    }
+}
+
+.metre {
+    border: none;
+    background-color: transparent;
+}
+
+.metre:hover {
+    cursor: pointer;
+}
