@@ -3,8 +3,6 @@
     width: 35vw;
 }
 
-.omer img {}
-
 .custt h1 {
     color: red;
 }
@@ -55,8 +53,6 @@
 .clearfix {
     clear: both;
 }
-
-.omer {}
 
 .omer p {
     display: inline-block;
